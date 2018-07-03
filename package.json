@@ -1,0 +1,34 @@
+{
+  "name": "LadsBurger",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "native-base": "^2.6.1",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-fbsdk": "^0.7.0",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-shadow": "^1.2.2",
+    "react-native-super-grid": "^2.4.0",
+    "react-native-svg": "^6.3.1",
+    "react-navigation": "^2.5.5"
+  },
+  "devDependencies": {
+    "babel-jest": "23.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.2.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts"
+    ]
+  }
+}

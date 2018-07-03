@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LadsBurger</string>
+    <string name="facebook_app_id">189463535239923</string>
+    <string name="fb_login_protocol_scheme">fb189463535239923</string>
+</resources>
